@@ -12,4 +12,5 @@ struct Pregunta {
     let texto: String
     let respuesta: String
     let color : UIColor
+    let image: UIImage
 }

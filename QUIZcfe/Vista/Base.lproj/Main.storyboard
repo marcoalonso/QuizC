@@ -16,14 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="degradado" translatesAutoresizingMaskIntoConstraints="NO" id="ReG-tp-CMd">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="degradado" translatesAutoresizingMaskIntoConstraints="NO" id="ReG-tp-CMd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="930"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="Aq7-bn-sbD">
-                                <rect key="frame" x="30" y="74" width="350" height="690"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Aq7-bn-sbD">
+                                <rect key="frame" x="20" y="74" width="374" height="626"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puntaje : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8BY-Hv-91K">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="52"/>
+                                        <rect key="frame" x="94" y="0.0" width="186.5" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="52" id="fHL-9R-8tN"/>
                                         </constraints>
@@ -31,10 +31,16 @@
                                         <color key="textColor" red="0.34509804840000002" green="0.2470588088" blue="0.96078431610000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Los mayas fueron la primer civilizacion de America" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPJ-ke-rxq">
-                                        <rect key="frame" x="0.0" y="127" width="350" height="279"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="5av-PY-gGt">
+                                        <rect key="frame" x="0.0" y="62" width="374" height="200"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="279" id="v0V-gD-fWD"/>
+                                            <constraint firstAttribute="height" constant="200" id="78f-zm-yL2"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Los mayas fueron la primer civilizacion de America" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPJ-ke-rxq">
+                                        <rect key="frame" x="11.5" y="272" width="351.5" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="v0V-gD-fWD"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
@@ -42,10 +48,10 @@
                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="haf-am-eca">
-                                        <rect key="frame" x="0.0" y="481" width="350" height="124"/>
+                                        <rect key="frame" x="133.5" y="482" width="107.5" height="124"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RRg-dd-qRd">
-                                                <rect key="frame" x="0.0" y="0.0" width="350" height="58"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="107.5" height="58"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="58" id="mi2-4G-yls"/>
@@ -62,7 +68,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZIq-gv-NK4">
-                                                <rect key="frame" x="0.0" y="66" width="350" height="58"/>
+                                                <rect key="frame" x="0.0" y="66" width="107.5" height="58"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="58" id="uxR-n0-6e5"/>
@@ -81,7 +87,7 @@
                                         </subviews>
                                     </stackView>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gLe-Vm-SQF">
-                                        <rect key="frame" x="0.0" y="680" width="350" height="10"/>
+                                        <rect key="frame" x="12" y="616" width="350" height="10"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="10" id="9LP-ci-7Nq"/>
                                             <constraint firstAttribute="width" constant="350" id="oua-i4-yQa"/>
@@ -95,19 +101,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Aq7-bn-sbD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="D9o-jU-wO5"/>
-                            <constraint firstItem="ReG-tp-CMd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="EJ7-DC-F4N"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Aq7-bn-sbD" secondAttribute="bottom" constant="40" id="HAL-eR-dL4"/>
-                            <constraint firstAttribute="bottom" secondItem="ReG-tp-CMd" secondAttribute="bottom" id="IMF-ts-Qbj"/>
-                            <constraint firstItem="Aq7-bn-sbD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Ihl-iz-3hR"/>
-                            <constraint firstAttribute="trailing" secondItem="ReG-tp-CMd" secondAttribute="trailing" id="RZo-Jx-BeS"/>
-                            <constraint firstItem="ReG-tp-CMd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qhV-bz-WKJ"/>
-                            <constraint firstAttribute="trailing" secondItem="Aq7-bn-sbD" secondAttribute="trailing" constant="30" id="znU-Op-eeR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Aq7-bn-sbD" secondAttribute="bottom" constant="30" id="24I-D5-DwH"/>
+                            <constraint firstItem="ReG-tp-CMd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8Aw-ga-N0V"/>
+                            <constraint firstItem="Aq7-bn-sbD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="8jt-UG-UQ6"/>
+                            <constraint firstAttribute="trailing" secondItem="Aq7-bn-sbD" secondAttribute="trailing" constant="20" id="IZp-FK-Axe"/>
+                            <constraint firstItem="Aq7-bn-sbD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LLr-Ey-g6D"/>
+                            <constraint firstItem="ReG-tp-CMd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Slb-MM-oMO"/>
+                            <constraint firstItem="ReG-tp-CMd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UO2-LJ-fxw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ReG-tp-CMd" secondAttribute="bottom" constant="-200" id="r0t-pf-JuU"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="barraProgrso" destination="gLe-Vm-SQF" id="Lds-PT-MQg"/>
                         <outlet property="falsoButton" destination="RRg-dd-qRd" id="iGA-0J-EYf"/>
+                        <outlet property="imagenPregunta" destination="5av-PY-gGt" id="3zx-NR-17v"/>
                         <outlet property="preguntaLabel" destination="vPJ-ke-rxq" id="4j3-Ue-H0n"/>
                         <outlet property="puntajeLabel" destination="8BY-Hv-91K" id="1RW-0q-BGa"/>
                         <outlet property="verdaderoButon" destination="ZIq-gv-NK4" id="SAV-vc-J6b"/>
@@ -119,6 +126,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="1" width="1024" height="576"/>
         <image name="degradado" width="750" height="1331"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

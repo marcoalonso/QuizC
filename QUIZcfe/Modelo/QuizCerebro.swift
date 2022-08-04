@@ -11,9 +11,9 @@ import UIKit
 struct QuizCerebro {
     //arreglo de preguntas
     let preguntas = [
-        Pregunta(texto: "¿La capital de China es Beijin?", respuesta: "VERDADERO", color: UIColor.tintColor),
-        Pregunta(texto: "El numero 9 es un numero primo", respuesta: "VERDADERO", color: UIColor.red),
-        Pregunta(texto: "La raiz cuadrada de 81 es 8", respuesta: "FALSO", color: UIColor.orange)
+        Pregunta(texto: "¿La capital de China es Beijin?", respuesta: "VERDADERO", color: UIColor.tintColor, image: UIImage(named: "1")!),
+        Pregunta(texto: "El numero 9 es un numero primo", respuesta: "VERDADERO", color: UIColor.red, image: UIImage(named: "2")!),
+        Pregunta(texto: "La raiz cuadrada de 81 es 8", respuesta: "FALSO", color: UIColor.orange, image: UIImage(named: "3")!)
     ]
     
     
@@ -49,6 +49,11 @@ struct QuizCerebro {
     func obtenerColor() -> UIColor {
         let color = preguntas[numPregunta].color
         return color
+    }
+    
+    func obtenerImagen() -> UIImage {
+        let imagen = preguntas[numPregunta].image
+        return imagen
     }
     
     mutating func siguientePregunta() -> Bool {

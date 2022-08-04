@@ -9,6 +9,7 @@ import UIKit
 
 class QuizViewController: UIViewController {
     
+    @IBOutlet weak var imagenPregunta: UIImageView!
     @IBOutlet weak var puntajeLabel: UILabel!
     @IBOutlet weak var preguntaLabel: UILabel!
     @IBOutlet weak var falsoButton: UIButton!
@@ -24,6 +25,9 @@ class QuizViewController: UIViewController {
 
         preguntaLabel.text = quizCerebro.obtenerTextoPregunta()
         preguntaLabel.textColor = quizCerebro.obtenerColor()
+        
+        //imagen
+        imagenPregunta.image = quizCerebro.obtenerImagen()
     }
     
     @IBAction func respuestaUserBtn(_ sender: UIButton) {
@@ -63,6 +67,9 @@ class QuizViewController: UIViewController {
         //actualizar mi label
         preguntaLabel.text = quizCerebro.obtenerTextoPregunta()
         preguntaLabel.textColor = quizCerebro.obtenerColor()
+        
+        //imagen pregunta
+        imagenPregunta.image = quizCerebro.obtenerImagen()
         
         //barra de progreso
         barraProgrso.progress = quizCerebro.obtenerProgreso()
