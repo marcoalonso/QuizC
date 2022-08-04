@@ -16,9 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="degradado" translatesAutoresizingMaskIntoConstraints="NO" id="ReG-tp-CMd">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1331"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="degradado" translatesAutoresizingMaskIntoConstraints="NO" id="ReG-tp-CMd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="Aq7-bn-sbD">
                                 <rect key="frame" x="30" y="74" width="350" height="690"/>
@@ -91,15 +90,19 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Aq7-bn-sbD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="D9o-jU-wO5"/>
+                            <constraint firstItem="ReG-tp-CMd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="EJ7-DC-F4N"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Aq7-bn-sbD" secondAttribute="bottom" constant="40" id="HAL-eR-dL4"/>
+                            <constraint firstAttribute="bottom" secondItem="ReG-tp-CMd" secondAttribute="bottom" id="IMF-ts-Qbj"/>
                             <constraint firstItem="Aq7-bn-sbD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="Ihl-iz-3hR"/>
+                            <constraint firstAttribute="trailing" secondItem="ReG-tp-CMd" secondAttribute="trailing" id="RZo-Jx-BeS"/>
+                            <constraint firstItem="ReG-tp-CMd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qhV-bz-WKJ"/>
                             <constraint firstAttribute="trailing" secondItem="Aq7-bn-sbD" secondAttribute="trailing" constant="30" id="znU-Op-eeR"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14" y="-175"/>
+            <point key="canvasLocation" x="13.043478260869566" y="-175.44642857142856"/>
         </scene>
     </scenes>
     <resources>
