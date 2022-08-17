@@ -127,7 +127,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1" width="1024" height="576"/>
+        <image name="1" width="1280" height="900"/>
         <image name="degradado" width="750" height="1331"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

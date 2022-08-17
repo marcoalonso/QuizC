@@ -22,6 +22,9 @@ class QuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        imagenPregunta.layer.cornerRadius = 20
+        imagenPregunta.layer.masksToBounds = true
 
         preguntaLabel.text = quizCerebro.obtenerTextoPregunta()
         preguntaLabel.textColor = quizCerebro.obtenerColor()
@@ -59,7 +62,7 @@ class QuizViewController: UIViewController {
             present(alerta, animated: true)
         }
         
-        _ = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(cambiarPregunta), userInfo: nil, repeats: false)
+        _ = Timer.scheduledTimer(timeInterval: 4.0, target: self, selector: #selector(cambiarPregunta), userInfo: nil, repeats: false)
         
     }
     

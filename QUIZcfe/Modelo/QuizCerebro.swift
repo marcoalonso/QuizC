@@ -11,9 +11,15 @@ import UIKit
 struct QuizCerebro {
     //arreglo de preguntas
     let preguntas = [
-        Pregunta(texto: "¿La capital de China es Beijin?", respuesta: "VERDADERO", color: UIColor.tintColor, image: UIImage(named: "1")!),
-        Pregunta(texto: "El numero 9 es un numero primo", respuesta: "VERDADERO", color: UIColor.red, image: UIImage(named: "2")!),
-        Pregunta(texto: "La raiz cuadrada de 81 es 8", respuesta: "FALSO", color: UIColor.orange, image: UIImage(named: "3")!)
+        Pregunta(texto: "El punto llamado NEMO es el punto más difícil de alcanzar de todo el planeta.", respuesta: "VERDADERO", color: UIColor.tintColor, image: UIImage(named: "1")!),
+        Pregunta(texto: "Tokio siempre ha sido la capital de Japón", respuesta: "FALSO", color: UIColor.red, image: UIImage(named: "2")!),
+        Pregunta(texto: "Los nativos americanos enterraban sus hachas cuando hacían las paces", respuesta: "VERDADERO", color: UIColor.orange, image: UIImage(named: "3")!),
+        Pregunta(texto: "El aluminio fue una vez más valioso que el oro", respuesta: "VERDADERO", color: UIColor.tintColor, image: UIImage(named: "4")!),
+        Pregunta(texto: "Bélgica ha sido independiente durante miles de años", respuesta: "FALSO", color: UIColor.red, image: UIImage(named: "belgica")!),
+        Pregunta(texto: "Ningún papa ha muerto nunca violentamente", respuesta: "FALSO", color: UIColor.orange, image: UIImage(named: "papa")!),
+        Pregunta(texto: "Una ciudad perdida yace bajo el mar Mediterráneo", respuesta: "VERDADERO", color: UIColor.orange, image: UIImage(named: "mar")!),
+        Pregunta(texto: "El budismo fue fundado en Japón", respuesta: "FALSO", color: UIColor.orange, image: UIImage(named: "budismo")!)
+        
     ]
     
     
