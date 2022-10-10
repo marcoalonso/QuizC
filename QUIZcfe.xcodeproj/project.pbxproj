@@ -322,6 +322,7 @@
 				DEVELOPMENT_TEAM = 345UR7Z9A7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QUIZcfe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Quizzy;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -350,6 +351,7 @@
 				DEVELOPMENT_TEAM = 345UR7Z9A7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QUIZcfe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Quizzy;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

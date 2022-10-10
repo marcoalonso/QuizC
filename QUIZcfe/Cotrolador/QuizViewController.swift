@@ -22,7 +22,7 @@ class QuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        barraProgrso.progress = quizCerebro.obtenerProgreso()
         imagenPregunta.layer.cornerRadius = 20
         imagenPregunta.layer.masksToBounds = true
 
@@ -44,6 +44,8 @@ class QuizViewController: UIViewController {
             sender.backgroundColor = UIColor.green
         } else {
             sender.backgroundColor = UIColor.red
+            let generator = UIImpactFeedbackGenerator(style: .heavy)
+            generator.impactOccurred()
         }
         
         //validar si hay mas preguntas
@@ -62,7 +64,7 @@ class QuizViewController: UIViewController {
             present(alerta, animated: true)
         }
         
-        _ = Timer.scheduledTimer(timeInterval: 4.0, target: self, selector: #selector(cambiarPregunta), userInfo: nil, repeats: false)
+        _ = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(cambiarPregunta), userInfo: nil, repeats: false)
         
     }
     
