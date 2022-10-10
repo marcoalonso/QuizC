@@ -26,7 +26,11 @@ struct QuizCerebro {
         Pregunta(texto: "Los relámpagos se ven antes de escucharse porque la luz viaja más rápido que el sonido", respuesta: "VERDADERO", color: UIColor.black, image: UIImage(named: "rayo")!),
         Pregunta(texto: "La penicilina fue descubierta en Vietnam para tratar la malaria.", respuesta: "FALSO", color: UIColor.black, image: UIImage(named: "penicilina")!),
         Pregunta(texto: "El brócoli contiene más vitamina C que los limones.", respuesta: "VERDADERO", color: UIColor.black, image: UIImage(named: "brocoli")!),
-        Pregunta(texto: "Google inicialmente se llamaba BackRub.", respuesta: "VERDADERO", color: UIColor.blue, image: UIImage(named: "google")!)
+        Pregunta(texto: "Google inicialmente se llamaba BackRub.", respuesta: "VERDADERO", color: UIColor.black, image: UIImage(named: "google")!),
+        
+        Pregunta(texto: "El cráneo es el hueso más fuerte del cuerpo humano", respuesta: "FALSO", color: UIColor.black, image: UIImage(named: "craneo")!),
+        
+        Pregunta(texto: "Coca Cola existe en todos los países del mundo.", respuesta: "FALSO", color: UIColor.black, image: UIImage(named: "coca")!)
         
     ]
     

@@ -42,12 +42,12 @@ class QuizViewController: UIViewController {
         
         if respuestaCorrecta {
             sender.backgroundColor = UIColor.green
-            verdaderoButon.isEnabled = false
-            falsoButton.isEnabled = false
+//            verdaderoButon.isEnabled = false
+//            falsoButton.isEnabled = false
         } else {
             sender.backgroundColor = UIColor.red
-            verdaderoButon.isEnabled = false
-            falsoButton.isEnabled = false
+//            verdaderoButon.isEnabled = false
+//            falsoButton.isEnabled = false
             
             //Vibracion
             let generator = UIImpactFeedbackGenerator(style: .heavy)
@@ -62,7 +62,10 @@ class QuizViewController: UIViewController {
             let accionNo = UIAlertAction(title: "NO", style: .destructive) { _ in
                 exit(0)//cierra la app
             }
-            let accionAceptar = UIAlertAction(title: "SI", style: .default)
+            let accionAceptar = UIAlertAction(title: "SI", style: .default) { _ in
+                self.quizCerebro.puntuacion = 0
+                self.puntajeLabel.text = "Puntaje es: 0 pts."
+            }
             
             alerta.addAction(accionNo)
             alerta.addAction(accionAceptar)
@@ -93,8 +96,8 @@ class QuizViewController: UIViewController {
         verdaderoButon.backgroundColor = UIColor.white
         falsoButton.backgroundColor = UIColor.white
         
-        verdaderoButon.isEnabled = true
-        falsoButton.isEnabled = true
+//        verdaderoButon.isEnabled = true
+//        falsoButton.isEnabled = true
     }
 
 
