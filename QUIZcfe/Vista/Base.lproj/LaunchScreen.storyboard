@@ -18,18 +18,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="true or false" translatesAutoresizingMaskIntoConstraints="NO" id="ocP-K8-ERE">
-                                <rect key="frame" x="16" y="267" width="358" height="310"/>
+                                <rect key="frame" x="16" y="122" width="358" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="310" id="5zN-bp-9o8"/>
+                                    <constraint firstAttribute="height" constant="200" id="5zN-bp-9o8"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido a Quizzy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Joh-bm-yI9">
+                                <rect key="frame" x="10" y="47" width="370" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="A1V-Kb-qSy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Joh-bm-yI9" secondAttribute="trailing" constant="10" id="1AM-6L-QWA"/>
+                            <constraint firstItem="Joh-bm-yI9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="52H-P7-DWt"/>
+                            <constraint firstItem="Joh-bm-yI9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="fpc-ep-219"/>
                             <constraint firstItem="ocP-K8-ERE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="geB-5a-hpI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ocP-K8-ERE" secondAttribute="trailing" constant="16" id="nxM-Qs-zkq"/>
-                            <constraint firstItem="ocP-K8-ERE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="prG-Zu-WxF"/>
+                            <constraint firstItem="ocP-K8-ERE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-200" id="prG-Zu-WxF"/>
                             <constraint firstItem="ocP-K8-ERE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zrD-Cg-AL0"/>
                         </constraints>
                     </view>

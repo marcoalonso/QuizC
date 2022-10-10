@@ -42,8 +42,14 @@ class QuizViewController: UIViewController {
         
         if respuestaCorrecta {
             sender.backgroundColor = UIColor.green
+            verdaderoButon.isEnabled = false
+            falsoButton.isEnabled = false
         } else {
             sender.backgroundColor = UIColor.red
+            verdaderoButon.isEnabled = false
+            falsoButton.isEnabled = false
+            
+            //Vibracion
             let generator = UIImpactFeedbackGenerator(style: .heavy)
             generator.impactOccurred()
         }
@@ -86,6 +92,9 @@ class QuizViewController: UIViewController {
         //reset el color
         verdaderoButon.backgroundColor = UIColor.white
         falsoButton.backgroundColor = UIColor.white
+        
+        verdaderoButon.isEnabled = true
+        falsoButton.isEnabled = true
     }
 
 
